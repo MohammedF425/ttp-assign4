@@ -1,3 +1,5 @@
+//solves number 4
+
 // In a Javascript file, write a program which checks the following things:
 // checks that the password is 12345678
 // if the password is incorrect, send an alert message

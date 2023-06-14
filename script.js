@@ -1,3 +1,5 @@
+// solves number 2
+
 const hoverElement = document.getElementById("hover")
 
 hoverElement.onmouseover = () => {
