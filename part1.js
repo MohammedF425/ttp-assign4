@@ -1,3 +1,5 @@
+// solves number 1
+
 function button1(){
     document.getElementById("button2").innerText="";
     document.getElementById("button1").innerText="I am right";
