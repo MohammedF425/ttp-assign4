@@ -39,8 +39,8 @@ body {
 .container {
     background-color: rgba(60, 200, 200, 0.848);
     width: 400px;
-    margin-top: 250px;
-    margin-left: auto;
+    margin-top: 200px;
+    margin-left: 500px;
     margin-right: auto;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -74,4 +74,24 @@ input {
 }
 h1{
     font-size: 25px;
+}
+
+.navbar {
+    background-color: rgb(35, 35, 35);
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.items {
+    list-style-type: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #e3ffe7;
+}
+button {
+    border-radius: 20px;
 }
