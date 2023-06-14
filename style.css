@@ -12,3 +12,53 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    margin: 0;
+  }
+  
+  .part1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  button {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 0px; 
+  }
+.container {
+    background-color: rgba(60, 200, 200, 0.848);
+    width: 400px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 0px; 
+    border-radius: 20px;
+    background-color: azure;
+  }
+.btn:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}

@@ -5,11 +5,13 @@
 // form is correct, have Javascript change the text in the <h1>.HTML 
 // page.
 function login(event){
+    event.preventDefault();
     var passInput = document.getElementById("password");
-    if(passInput==='12345678'){
+    if(passInput.value === '12345678'){
         document.querySelector('h1').textContent = 'Correct Password'
     } else{
         alert("Incorrect Password")
+        document.querySelector('h1').textContent = 'Enter password'
     }
 }
 
